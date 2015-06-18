@@ -10,7 +10,7 @@ body {
 
 header {
   background-position: 0px -200px, 50% 50%;
-  background-image: url(img/xl4p3ar.jpg);
+  background-image: url(../img/xl4p3ar.jpg);
   background-size: cover;
   background-repeat: no-repeat, no-repeat;
   text-align: center; }
