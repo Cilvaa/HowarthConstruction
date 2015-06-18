@@ -1,0 +1,111 @@
+html {
+  overflow: -moz-scrollbars-vertical;
+  overflow-y: scroll; }
+
+body {
+  margin: 0px;
+  background-color: #282828;
+  line-height: 1.2;
+  font-family: Open Sans; }
+
+header {
+  background-position: 0px -200px, 50% 50%;
+  background-image: url(/img/xl4p3ar.jpg);
+  background-size: cover;
+  background-repeat: no-repeat, no-repeat;
+  text-align: center; }
+  header h1 {
+    color: white;
+    font-weight: 400;
+    font-size: 60px;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 25px; }
+  header #title {
+    padding: 5px 15px;
+    border: 2px white solid;
+    background: rgba(0, 0, 0, 0.8); }
+  header nav {
+    margin-top: 30px; }
+    header nav ul {
+      padding: 0 0 15px 0;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 15px; }
+      header nav ul a {
+        font-size: 25px;
+        font-weight: 300;
+        letter-spacing: 0.1em;
+        text-decoration: none;
+        display: inline-block;
+        padding: 7px 50px;
+        background: rgba(0, 0, 0, 0.8);
+        border-top: white solid 1px;
+        border-left: white solid 1px;
+        border-bottom: white solid 1px; }
+        header nav ul a:hover {
+          color: black;
+          background: rgba(255, 255, 255, 0.8); }
+      header nav ul #cont {
+        border-right: white solid 1px; }
+
+.container {
+  text-align: center;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto; }
+  .container .section {
+    margin-top: 25px;
+    margin-bottom: 50px; }
+    .container .section h2 {
+      padding-top: 10px;
+      border-top: rgba(255, 255, 255, 0.5) solid 1px; }
+  .container #gallery p {
+    font-size: 12px;
+    margin-top: -20px; }
+  .container #gallery .gallery-wrap .gallery-thumb {
+    display: inline-block;
+    width: 200px;
+    height: 200px; }
+  .container #contact .fa {
+    font-size: 50px; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  color: #ededed;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(//themes.googleusercontent.com/static/fonts/opensans/v8/DXI1ORHCpsQm3Vp6mXoaTaRDOzjiPcYnFooOUGCOsRk.woff) format('woff'); }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  color: #ededed;
+  src: local('Open Sans'), local('OpenSans'), url(//themes.googleusercontent.com/static/fonts/opensans/v8/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff) format('woff'); }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  color: #ededed;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(//themes.googleusercontent.com/static/fonts/opensans/v8/k3k702ZOKiLJc3WVjuplzKRDOzjiPcYnFooOUGCOsRk.woff) format('woff'); }
+
+a {
+  color: white; }
+  a:hover {
+    color: #aaa; }
+  a:active {
+    color: #aaa; }
+  a:focus {
+    color: #aaa; }
+
+h1, h2, h3, p, i {
+  color: white; }
+
+h1, h2, h3 {
+  font-weight: 400; }
+
+p {
+  font-weight: 300; }
