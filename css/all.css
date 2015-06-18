@@ -109,3 +109,42 @@ h1, h2, h3 {
 
 p {
   font-weight: 300; }
+
+@media (max-width: 825px) {
+  header {
+    background-position: 0px -100px, 50% 50%;
+  }
+  header h1 {
+    font-size: 40px;
+  }
+  header nav ul {
+    margin-top: 15px;
+  }
+  header nav ul a {
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 30px;
+  }
+}
+@media (max-width: 570px) {
+  header {
+    background-position: 0px 0px, 50% 50%;
+  }
+  header h1 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 450px) {
+  header {
+    background-position: 0px 0px, 50% 50%;
+  }
+  header h1 {
+    font-size: 25px;
+  }
+  header #title {
+    padding: 3px 5px;
+  }
+  header nav ul a {
+    padding: 5px 15px;
+  }
+}
